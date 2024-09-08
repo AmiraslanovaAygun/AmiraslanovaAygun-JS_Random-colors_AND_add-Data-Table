@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.flower {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  list-style: none;
+}
+
+.round {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.round1 {
+  top: 8%;
+  left: 13%;
+}
+
+.round2 {
+  top: 40.5%;
+  left: 6%;
+}
+
+.round3 {
+  top: 6%;
+  left: 44%;
+}
+
+.round4 {
+  top: 35%;
+  right: 10%;
+}
+
+.round5 {
+  top: 55%;
+  left: 34%;
+}
+.center {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+  z-index: 2;
+  border-radius: 50%;
+  top: 26%;
+  left: 26%;
+}
+table{
+  width: 40%;
+}
+td, th {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dbe7ec;
+}
