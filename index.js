@@ -39,13 +39,12 @@ let students = [
 ];
 
 let tableList = document.querySelector(".data-table");
-let tableRow = document.getElementsByClassName(".data-row");
 
 function addELementInRow(row, content) {
 
     let addRowElement = document.createElement("td");
     addRowElement.textContent = content;
-    row.appendChild(addRowElement);
+    row.append(addRowElement);
 
     return row;
 }
@@ -62,7 +61,7 @@ setInterval(() => {
         let rowElement = addELementInRow(addTableRow, person[j]);
     }
 
-    tableList.appendChild(addTableRow);
+    tableList.append(addTableRow);
 
     i++;
 
